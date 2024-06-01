@@ -12,6 +12,7 @@ public class AppConfig {
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http)throws Exception{
         http.sessionManagement(Management -> Management.sessionCreationPolicy());
+        #hi
 
         return null;
     }
